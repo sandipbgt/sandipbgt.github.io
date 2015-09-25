@@ -3,12 +3,13 @@ layout: default
 ---
 
 <article>
-    <!-- Page Header -->
+    <!-- Page header -->
     <header class="intro-header" style="background-image: url('{% if page.featured_image %}{{ page.featured_image }}{% else %}{{ site.featured_image }}{% endif %}')">
+    <div class="dark-background">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
+                    <div class="page-heading">
                         <h1 itemprop="name">{% if page.title %}{{ page.title | markdownify | strip_html | strip_newlines }}{% else %}{{ site.name }}{% endif %}</h1>
                         <hr class="small">
                         <span class="subheading" itemprop="description">{% if page.description %}{{ page.description | markdownify | strip_html | strip_newlines }}{% else %}{{ site.description | markdownify | strip_html | strip_newlines }}{% endif %}</span>
@@ -16,20 +17,20 @@ layout: default
                 </div>
             </div>
         </div>
+    </div>
     </header>
 
-    <!-- Page Content -->
+    <!-- Page content -->
     <div class="container">
-    	<div class="row">
-    		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="markdown-body clearfix">
                     {{ content }}
                 </div>
-    		</div>
-    	</div>
+            </div>
+        </div>
     </div>
 </article>
-<hr>
 
 {% comment %}
     Just to validate page.title is taken as a common condition in both id and name.
@@ -55,17 +56,17 @@ layout: default
             "position": 1,
             "item":
             {
-                "@id": "{{ site.url }}/",
-                "name": "Home"
+            "@id": "{{ site.url }}/",
+            "name": "Home"
             }
-            },
-            {
+        },
+        {
             "@type": "ListItem",
             "position": 2,
             "item":
             {
-                "@id": "{{ site.url }}{{ breadcrumb_2_id | replace:'index.html','' }}",
-                "name": "{{ breadcrumb_2_name }}"
+            "@id": "{{ site.url }}{{ breadcrumb_2_id | replace:'index.html','' }}",
+            "name": "{{ breadcrumb_2_name }}"
             }
         }
     ]

@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer>
+<footer class="info-footer" role="content-info" itemscope itemtype="http://schema.org/WPFooter">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -12,38 +12,55 @@
                             </span>
                         </a>
                     </li>
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
+                    {% if site.author.twitter %}
+                      <li>
+                        <a rel="me" href="//twitter.com/{{ site.author.twitter }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                          </span>
                         </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
+                      </li>
+                      {% endif %}
+                      {% if site.author.google_plus %}
+                      <li>
+                        <a rel="me" href="//google.com/+{{ site.author.google_plus }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                          </span>
                         </a>
-                    </li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
+                      </li>
+                      {% endif %}
+                      {% if site.author.github %}
+                      <li>
+                        <a rel="me" href="//github.com/{{ site.author.github }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                          </span>
                         </a>
-                    </li>
+                      </li>
+                      {% endif %}
+                      {% if site.author.tumblr %}
+                      <li>
+                        <a rel="me" href="http://{{ site.author.tumblr }}.tumblr.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
+                <p class="copyright text-muted">
+                    &copy; <span itemprop="copyrightYear">{{ site.time | date: '%Y' }}</span>
+                    {% if site.author.name %}
+                        <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person">
+                        <span property="cc:attributionName" itemprop="name">{{ site.author.name }}</span></span>
+                    {% else %}
+                        {{ site.name }}{% endif %}.
+                </p>
             </div>
         </div>
     </div>

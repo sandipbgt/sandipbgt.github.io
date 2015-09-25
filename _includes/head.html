@@ -1,19 +1,101 @@
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+    {% if page.subtitle %}
+        {% assign page_description = page.subtitle %}
+    {% elsif page.excerpt and page.excerpt != blank %}
+        {% assign page_description = page.excerpt %}
+    {% elsif page.description %}
+        {% assign page_description = page.description %}
+    {% else %}
+        {% assign page_description = site.description %}
+    {% endif %}
+    {% capture meta_description %}{{ page_description | markdownify | strip_html | strip_newlines | truncate: 160 }}{% endcapture %}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=">
+    <meta name="title" content="{% if page.title %}{{ page.title | markdownify | strip_html | strip_newlines }}{% else site.name %}{% endif %}">
     <meta name="description" content="{{ site.description }}">
+    {% if page.date %}
+        <meta name="author" content="{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.author.name }}{% endif %}">
+    {% endif %}
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>
+        {% if page.title %}
+            {{ page.title | markdownify | strip_html | strip_newlines }}
+        {% else %}
+            {{ site.name }}
+        {% endif %}
+    </title>
 
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title | markdownify | strip_html | strip_newlines }}{% else %}{{ site.name }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | site.url }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.url }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}">
+    <meta property="fb:admins" content="{{ site.author.fb_id }}">
+    <meta property="fb:profile_id" content="{{ site.author.fb_id }}">
+    <meta property="og:type" content="{% if page.date %}{{ 'article' }}{% else %}{{ 'website' }}{% endif %}">
+    <meta property="og:locale" content="{{ site.locale }}">
+    {% if page.date %}
+        <meta property="article:author" content="https://facebook.com/{{ site.author.facebook }}">
+        <meta property="article.modified_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}">
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+        {% for post in site.related_posts limit:3 %}
+            <meta property="og:see_also" content="{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        {% endfor %}
+    {% endif %}
+
+    <!-- Twitter Card property -->
+    <meta name="twitter:card" content="{% if page.featured_image %}{{ 'summary_large_image' }}{% else %}{{ 'summary' }}{% endif %}">
+    <meta name="twitter:site" content="@{{ site.author.twitter }}">
+    {% if page.date %}
+        <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+    {% endif %}
+
+    <!-- SEO -->
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if page.previous.url %}<link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.previous.title | markdownify | strip_html | strip_newlines }}">{% endif %}
+    {% if page.next.url %}<link rel="next" href="{{ page.next.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.next.title | markdownify | strip_html | strip_newlines }}">{% endif %}
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.name | markdownify | strip_html | strip_newlines }}",
+        "alternateName": "{{ site.description | markdownify | strip_html | strip_newlines }}",
+        "url": "{{ site.url }}/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site.url }}/search/?q={searchTerms}",
+            "query-input": "required name=searchTerms"
+        }
+    }
+    </script>
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+    <!-- Google+ Authorship -->
+    <link rel="author" href="https://plus.google.com/+{{ site.author.google_plus }}">
+
+    <!-- Profile for XFN -->
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <!-- Feed -->
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="{{ site.name }}">
+
+    <!-- Open Search description -->
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{ site.name }}">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
@@ -30,4 +112,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="theme-color" content="{{ site.theme_color }}">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="{{ site.name }}">
+    <link rel="icon" sizes="any" mask href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Pin to start screen for IE on Windows -->
+    <meta name="application-name" content="{{ site.name }}">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <link rel="icon" sizes="16x16 32x32 64x64 128x128" href="/favicon.ico?v={{ site.github.build_revision }}">
 </head>

@@ -1,17 +1,58 @@
-# Site settings
-title: Sandip Bhagat
-header-img: img/home-bg.jpg
-email: sandipbgt@gmail.com
-description: "Sandip Bhagat"
-baseurl: ""
-url: "http://sandipbgt.github.io"
-twitter_username: sandipbgt
-github_username:  sandipbgt
-facebook_username:  sandip02
-
 # Build settings
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+encoding: "utf-8"
+
+# Conversion
 markdown: kramdown
 highlighter: pygments
+
+# Outputting
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+timezone: Asia/Kathmandu
+locale: en_us
+
+# Serving, does not include hostname
+baseurl: ""
+
+# URL of site, including http://, do not include a trailing slash
+url: "http://sandipbgt.github.io"
+
+# Site settings
+name: Sandip Bhagat
+description: "Dreaming for fawesome life"
+icon: "/assets/img/m-icon-blue-on-white.png"
+featured_image: "/img/home-bg.jpg"
+theme_color: "#F57C00"
+author:
+  name: Sandip Bhagat
+  email: "sandipbgt@gmail.com"
+  uri: "https://twitter.com/sandipgt"
+  twitter: sandipgt
+  google_plus: sandipgt
+  github: sandipgt
+  keybase: sandipgt
+  tumblr: sandipgt
+  linkedin: sandipgt
+  facebook: sandip02
+  fb_id:  100000280885884
+  street: "Vidhapith Path, Biratnagar - 13"
+  locality: Biratnagar
+  region: Morang
+  country: Nepal
+  postcode: 56613
+disqus_shortname: sandipbgt
+google_cse_id: ""
+
+# Google Analytics
+google_analytics_id: "UA-68086241-1"
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: "true"
