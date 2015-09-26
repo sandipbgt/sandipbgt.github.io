@@ -5,3 +5,77 @@
     left: 0;
     background: rgba(0,0,0,.44);
 }
+
+html {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+p a {
+  text-decoration: none;
+}
+
+p a:hover,
+p a:focus {
+  text-decoration: none;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-custom .nav li a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.intro-header .post-heading .meta {
+    font-size: 18px;
+}
+
+.post-preview > a:hover,
+.post-preview > a:focus {
+    text-decoration: none;
+    color: #404040;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.archive article ul li {
+    list-style-type: none;
+}
+
+.archive article a:hover,
+.archive article a:focus {
+    text-decoration: none;
+}
+
+.archive article a {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.pager li > a,
+.pager li > span {
+    font-family: Roboto, "Roboto", Helvetica, Arial, sans-serif;
+    border-radius: 50px;
+}
