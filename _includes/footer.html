@@ -21,18 +21,28 @@
                           </span>
                         </a>
                       </li>
-                      {% endif %}
-                      {% if site.author.google_plus %}
+                    {% endif %}
+                    {% if site.author.facebook %}
                       <li>
-                        <a rel="me" href="//google.com/+{{ site.author.google_plus }}">
+                        <a rel="me" href="//facebook.com/{{ site.author.facebook }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    {% endif %}
+                    {% if site.author.google_plus %}
+                      <li>
+                        <a rel="me" href="//plus.google.com/{{ site.author.google_plus }}">
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
                           </span>
                         </a>
                       </li>
-                      {% endif %}
-                      {% if site.author.github %}
+                    {% endif %}
+                    {% if site.author.github %}
                       <li>
                         <a rel="me" href="//github.com/{{ site.author.github }}">
                           <span class="fa-stack fa-lg">
@@ -41,8 +51,8 @@
                           </span>
                         </a>
                       </li>
-                      {% endif %}
-                      {% if site.author.tumblr %}
+                    {% endif %}
+                    {% if site.author.tumblr %}
                       <li>
                         <a rel="me" href="http://{{ site.author.tumblr }}.tumblr.com">
                           <span class="fa-stack fa-lg">
@@ -61,6 +71,15 @@
                     {% else %}
                         {{ site.name }}{% endif %}.
                 </p>
+
+<!--               <div class="footer-follow-me">
+                  <p><strong>Follow me on:
+                  [<a href="https://twitter.com/sandipbgt" title="Follow me on Twitter">Twitter</a>,
+                   <a href="https://facebook.com/sandip02" title="Add me on Facebook">Facebook</a>
+                   <a href="https://plus.google.com/115724525062730752670" title="Follow me on Google+">Google+</a>
+                   <a href="https://github.com/sandipbgt" title="Follow me on GitHub">Github</a>]</strong></p>
+              </div> -->
+
             </div>
         </div>
     </div>

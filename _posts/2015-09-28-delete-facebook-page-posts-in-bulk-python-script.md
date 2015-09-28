@@ -20,4 +20,4 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 $ python app.py
 {% endhighlight %}
-After the script runs, it will display the number of posts to delete and will delte them automatically.
+After the script runs, it will display the number of posts to delete and will delete them automatically.
