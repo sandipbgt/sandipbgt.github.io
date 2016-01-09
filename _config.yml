@@ -16,7 +16,7 @@ locale: en_us
 baseurl: ""
 
 # URL of site, including http://, do not include a trailing slash
-url: "http://sandipbgt.github.io"
+url: "http://sandipbgt.com"
 
 # Site settings
 name: Sandip Bhagat
