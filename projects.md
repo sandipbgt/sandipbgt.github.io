@@ -5,6 +5,46 @@ description: "Projects done so far..."
 featured_image: "/img/about-bg.jpg"
 ---
 
+## 15. broadlink-auto-login
+A Python module to login to [Broadlink](http://broadlink.com.np) hotspot automatically.
+
+* GitHub: [https://github.com/sandipbgt/broadlink-auto-login](https://github.com/sandipbgt/broadlink-auto-login)
+* URL: [https://pypi.python.org/pypi/broadlink-auto-login/](https://pypi.python.org/pypi/broadlink-auto-login/)
+ 
+<hr>
+
+## 14. vtu-result
+A Python script to export results of all students from [results.vtu.ac.in](results.vtu.ac.in) to Excel file format.
+
+* GitHub: [https://github.com/sandipbgt/vtu-result](https://github.com/sandipbgt/vtu-result)
+
+<hr>
+
+## 13. astrosage-api
+Un-official REST API to view and send horoscope as SMS from
+[astrosoage.com](http://astrosoage.com).
+
+* URL: [https://astrosage-api.herokuapp.com/](https://astrosage-api.herokuapp.com/)
+* GitHub: [https://github.com/sandipbgt/astrosage-api](https://github.com/sandipbgt/astrosage-api)
+
+<hr>
+
+## 12. goodreads-quotes-api
+Unofficial REST api to view and send daily quote as SMS from [goodreads.com](goodreads.com) using [goodreads_quotes](https://pypi.python.org/pypi/goodreads_quotes/) lilbrary.
+
+* URL: [http://goodreads-quotes-api.herokuapp.com/](http://goodreads-quotes-api.herokuapp.com/)
+* GitHub: [https://github.com/sandipbgt/goodreads-quotes-api](https://github.com/sandipbgt/goodreads-quotes-api)
+
+<hr>
+
+## 11. goodreads-quotes Python Package
+A Python module to fetch popular quotes and quote of the day from [goodreads.com](goodreads.com).
+
+* URL: [https://pypi.python.org/pypi/goodreads_quotes/](https://pypi.python.org/pypi/goodreads_quotes/)
+* GitHub: [https://github.com/sandipbgt/goodreads-quotes](https://github.com/sandipbgt/goodreads-quotes)
+
+<hr>
+
 ## 10. twipodcast
 TwiPodcast is a web app which allows you to listen podcast or any mp3 media file on your phone for free without internet.
 
