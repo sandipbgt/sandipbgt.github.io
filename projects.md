@@ -5,6 +5,31 @@ description: "Projects done so far..."
 featured_image: "/img/about-bg.jpg"
 ---
 
+## 18. pyradio-nepal
+Command line tool to listen any radio stations of Nepal from the terminal
+
+* GitHub: [https://github.com/sandipbgt/pyradio-nepal](https://github.com/sandipbgt/pyradio-nepal)
+* URL: [https://pypi.python.org/pypi/pyradio-nepal](https://pypi.python.org/pypi/pyradio-nepal)
+
+<hr>
+
+## 17. indian-embassy-news
+A web app which allows you to see latest news from [http://indianembassy.org.np](http://indianembassy.org.np)
+
+* GitHub: [https://github.com/sandipbgt/indian-embassy-news](https://github.com/sandipbgt/indian-embassy-news)
+* Web app URL: [http://sandipbgt.com/indian-embassy-news](http://sandipbgt.com/indian-embassy-news)
+* API URL: [https://indian-embassy-news.herokuapp.com](https://indian-embassy-news.herokuapp.com)
+
+<hr>
+
+## 16. ntc-websms
+A command line tool to send free SMS via [http://www.meet.net.np](http://www.meet.net.np)
+
+* GitHub: [https://github.com/sandipbgt/ntc-websms](https://github.com/sandipbgt/ntc-websms)
+* URL: [https://pypi.python.org/pypi/ntc-websms](https://pypi.python.org/pypi/ntc-websms)
+
+<hr>
+
 ## 15. broadlink-auto-login
 A Python module to login to [Broadlink](http://broadlink.com.np) hotspot automatically.
 
