@@ -13,8 +13,6 @@ As a developer, I thought why not build something myself that can be used to cal
 
 Though, the initial idea was to wish my friend but after working on the project for some days, the idea changed from wishing to listening podcast and so named TwiPodcast as there are many people who love listening podcast.
 
-image
-
 ## What is TwiPodcast
 
 Twipodcast is a web app that allows you to listen podcast or any mp3 media file on your phone for free without internet.
