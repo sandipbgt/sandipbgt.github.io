@@ -40,7 +40,7 @@ encoding: "utf-8"
 timezone: Asia/Kathmandu
 locale: en_us
 markdown: kramdown
-highlighter: roughe
+highlighter: rouge
 permalink: pretty
 paginate: 10
 
