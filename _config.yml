@@ -1,26 +1,12 @@
-# Build settings
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-encoding: "utf-8"
-
-# Conversion
-markdown: kramdown
-highlighter: pygments
-
-# Outputting
-permalink: pretty
-paginate: 5
-timezone: Asia/Kathmandu
-locale: en_us
+# Jekyll configuration file (https://jekyllrb.com/docs/configuration/)
 
 # Serving, does not include hostname
 baseurl: ""
 
-# URL of site, including http://, do not include a trailing slash
-url: "http://sandipbgt.com"
-
 # Site settings
 name: Sandip Bhagat
 description: "Dreaming for fawesome life"
+url: "http://sandipbgt.com"
 icon: "/assets/img/m-icon-blue-on-white.png"
 featured_image: "/img/home-bg.jpg"
 theme_color: "#F57C00"
@@ -47,6 +33,17 @@ google_cse_id: ""
 # Google Analytics
 google_analytics_id: "UA-68086241-1"
 
+# Site Build settings
+repository: "sandipbgt/sandipbgt.github.io"
+branch: master
+encoding: "utf-8"
+timezone: Asia/Kathmandu
+locale: en_us
+markdown: kramdown
+highlighter: roughe
+permalink: pretty
+paginate: 10
+
 # Front matter defaults
 defaults:
   -
@@ -56,3 +53,24 @@ defaults:
     values:
       layout: "post"
       comments: "true"
+
+gems:
+  - jekyll-paginate
+
+include: ["_pages"]
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - Gruntfile.js
+  - package.json
+  - npm-debug.log
+  - node_modules
+  - vendor
+  - bundle
+  - ".bundle"
+  - ".sass-cache"
+  - src
