@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 18
 title:      How To Disable Error Reporting In Ubuntu 16.04?
 date:       2016-08-07 21:06 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm9.staticflickr.com/8563/28542913480_0db5227b0b_z_d.jpg"
 ---
 
 Sometimes while using Ubuntu, you may get some error popups that asks you to report problems. These errors are really very annoying.

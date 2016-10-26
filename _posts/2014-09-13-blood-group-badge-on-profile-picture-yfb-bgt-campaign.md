@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id: 1
 title:      "Add Blood Group Badge On Your Profile Picture"
 date:       2014-09-13 08:00:00
 author:     "Sandip Bhagat"
+thumbnail: "https://farm6.staticflickr.com/5702/21510470959_cc4d798fc5_o_d.png"
 ---
 
 Finally completed designing the site and developing the Facebook application for Blood Group Tail campaign initiated by Youth For Blood.

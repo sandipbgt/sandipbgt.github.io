@@ -1,0 +1,84 @@
+- id: 1
+  title: "isquar-wp-theme"
+  description: "This is my first WordPress theme published at WordPress.org Theme Directory."
+  github: "https://github.com/sandipbgt/isquar-wp-theme"  
+
+- id: 2 
+  title: "blood-group-tail"
+  description: "A webapp for Youth For Blood’s Blood Group Tail campaign"
+  github: "https://github.com/sandipbgt/blood-group-tail"  
+
+- id: 3
+  title: "dob-story-javafx"
+  description: "A Java app built using JavaFX GUI framework that tells your birthdate story given your date of birth as input"
+  github: "https://github.com/sandipbgt/dob-story-javafx"  
+
+- id: 4
+  title: "nepal-flag-color-embedder"
+  description: "A Java app built using JavaFX GUI framework that to apply Nepal flag color on your photo"
+  github: "https://github.com/sandipbgt/nepal-flag-color-embedder"  
+
+- id: 5
+  title: "twilio-fb-notification"
+  description: "A python script to receive your Facebook notifications on your mobile via Twilio SMS API for free"
+  github: "https://github.com/sandipbgt/twilio-fb-notification"  
+
+- id: 6
+  title: "fb-post-bulk-delete"
+  description: "A python script to delete facebook posts in bulk"
+  github: "https://github.com/sandipbgt/fb-post-bulk-delete"  
+
+- id: 7
+  title: "theastrologer"
+  description: "A Python package to fetch and parse horoscope data from theastrologer.com"
+  github: "https://github.com/sandipbgt/theastrologer"  
+
+- id: 8
+  title: "theastrologer-api"
+  description: "Un-official REST API to view and send horoscope as SMS from theastrologer.com"
+  github: "https://github.com/sandipbgt/theastrologer-api"  
+
+- id: 9
+  title: "twipodcast"
+  description: "TwiPodcast is a web app which allows you to listen podcast or any mp3 media file on your phone for free without internet"
+  github: "https://github.com/sandipbgt/twipodcast"  
+
+- id: 10
+  title: "goodreads-quotes"
+  description: "A Python module to fetch popular quotes and quote of the day from goodreads.com"
+  github: "https://github.com/sandipbgt/goodreads-quotes"  
+
+- id: 11
+  title: "goodreads-quotes-api"
+  description: "Unofficial REST api to view and send daily quote as SMS from gooreads.com using goodreads_quotes lilbrary"
+  github: "https://github.com/sandipbgt/goodreads-quotes-api"  
+
+- id: 12
+  title: "astrosage-api"
+  description: "Un-official REST API to view and send horoscope as SMS from astrosoage.com"
+  github: "https://github.com/sandipbgt/astrosage-api"  
+
+- id: 13
+  title: "vtu-result"
+  description: "A Python script to export results of all students from results.vtu.ac.in to Excel file format"
+  github: "https://github.com/sandipbgt/vtu-result"  
+
+- id: 14
+  title: "broadlink-auto-login"
+  description: "A Python module to login to Broadlink hotspot automatically"
+  github: "https://github.com/sandipbgt/broadlink-auto-login"  
+
+- id: 15
+  title: "ntc-websms"
+  description: "A command line tool to send free SMS via http://www.meet.net.np"
+  github: "https://github.com/sandipbgt/ntc-websms"  
+
+- id: 16
+  title: "indian-embassy-news"
+  description: "A web app which allows you to see latest news from http://indianembassy.org.np"
+  github: "https://github.com/sandipbgt/indian-embassy-news"  
+
+- id: 17 
+  title: "pyradio-nepal"
+  description: "A command line tool to listen any radio stations of Nepal from the terminal"
+  github: "https://github.com/sandipbgt/pyradio-nepal"

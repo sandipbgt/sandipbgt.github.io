@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 14
 title:      "How To Display Current Git Branch Name In Terminal Prompt In Ubuntu?"
 date:       2015-10-26 13:08 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm6.staticflickr.com/5734/22459069076_e69af8100f_z_d.jpg"
 ---
 
 Git and GitHub is one of the most imortant tool for software development.

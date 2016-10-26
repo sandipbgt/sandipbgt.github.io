@@ -1,9 +1,12 @@
 ---
 layout:     post
+post_id : 10
 title:      "How To Control Your Monitor Brightness From Command Line In Ubuntu?"
 date:       2015-10-1 8:45:00
 author:     "Sandip Bhagat"
+thumbnail: ""
 ---
+
 I use a Ubuntu desktop with a LCD display. As a developer, working late night in front of a computer is very common for me. But working late night has got one problem.
 The brightness of my monitor is usually very high which affects the eyes in the long run. Though, I could adjust the brightness from monitor settings with its hardware
 buttons but after adjusting, the display of my monitor doesn't looks that good. If it was a laptop, the task is very easy as there are some dedicated keys to control

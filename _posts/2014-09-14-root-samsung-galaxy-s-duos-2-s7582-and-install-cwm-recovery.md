@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id: 2
 title:      "How I Rooted My Samsung Galaxy S duos 2 S7582?"
 date:       2014-09-14 08:00:00
 author:     "Sandip Bhagat"
+thumbnail: "https://farm6.staticflickr.com/5751/21079965623_0b79779840_o_d.jpg"
 ---
 
 Samsung Galaxy S Duos 2 S7582 is a second version of previous Galaxy S Duos. It comes with a 4.0 inches display, 5 megapixel camera, a 768 MB RAM and with a good dual core 1.2 GHz processor. Okay, that was little bit description about device feature. Now let’s proceed towards the actual thing.

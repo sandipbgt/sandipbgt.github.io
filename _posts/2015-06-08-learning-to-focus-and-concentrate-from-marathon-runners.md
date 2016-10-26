@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id: 3
 title:      "Learning To Focus And Concentrate From Marathon Runners"
 date:       2015-06-08-21 04:00:00
 author:     "Sandip Bhagat"
+thumbnail: ""
 ---
 
 I wish, I could finish preparing my exam in time, or did that job in time or built that mobile app or developed that website, etc, etc….. Confess it, this is the most common and fundamental reason, we often hear and explain someone in our daily life.

@@ -1,0 +1,5 @@
+---
+# Projects API
+---
+
+{{ site.data.projects | jsonify }}

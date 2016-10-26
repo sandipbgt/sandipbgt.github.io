@@ -1,9 +1,12 @@
 ---
 layout:     post
+post_id : 7
 title:      "JavaFX App To Apply Nepal Flag Color On Your Profile Picture"
 date:       2015-09-25 17:50:00
 author:     "Sandip Bhagat"
+thumbnail: "farm1.staticflickr.com/727/21711074161_5842565b96_b_d.jpg"
 ---
+
 Few days back I was going through my Facebook news feed and suddenly my eyes strike on one of the post of my friend.
 He had just changed his profile picture. One thing I saw different in his profile picture was that the color of our national flag was overlapped on the picture with transparency. The profile picture looked good. 😛 😛
 and then I went through the comments of that post and there I saw him mentioning that if there could be any app to make the task of applying flag color on profile picture with ease. As I am learning Java, I thought to make the app. This way I could practice my Java skill as well and then started developing the app.

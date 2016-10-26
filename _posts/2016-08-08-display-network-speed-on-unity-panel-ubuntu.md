@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 19
 title:      How To Display Network Speed On Unity Panel In Ubuntu?
 date:       2016-08-08 08:39 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm9.staticflickr.com/8747/28734167682_0e40b15fe1_o_d.png"
 ---
 
 The `Indicator Netspeed` displays the total current network traffic on the Unity Panel. It also shows current download and upload speed

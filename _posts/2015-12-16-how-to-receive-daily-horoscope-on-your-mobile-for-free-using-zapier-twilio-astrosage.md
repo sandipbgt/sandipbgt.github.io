@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 16
 title:      How To Receive Daily Horoscope On Your Mobile For Free Using Zapier, Twilio and Astrosage
 date:       2015-12-16 14:23 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm1.staticflickr.com/584/23675858242_43681a849c_b_d.jpg"
 ---
 
 Have you ever wondered of receiving daily horoscope on your mobile for free? If yes, then follow this simple guide to setup your mobile to receive daily horoscope.

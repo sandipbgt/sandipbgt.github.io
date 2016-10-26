@@ -1,9 +1,12 @@
 ---
 layout:     post
+post_id : 12
 title:      "How To Copy Any Text To Clipboard From Terminal In Ubuntu?"
 date:       2015-10-22 4:15:00
 author:     "Sandip Bhagat"
+thumbnail: ""
 ---
+
 `xclip` is a commandline interface to the X selections (clipboard). This tool helps you to copy the output of any command directly into the clipboard and saves you
 from manually copying and pasting from the terminal. If you have tried copying from the terminal output, you have already realized how tedious the task is. Imagine,
 if the output is very long, it will be difficult to copy the output manually. This is where `xclip` tool can benefit you. You can copy the output of any command using

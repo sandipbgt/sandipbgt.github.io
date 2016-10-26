@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 13
 title:      "How To Install Arc Theme In Ubuntu?"
 date:       2015-10-25 14:11 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm1.staticflickr.com/641/22497045831_a5b6488eaf_z_d.jpg"
 ---
 
 Ubuntu’s default theme is nice enough, but it is hasn’t changed much

@@ -1,8 +1,10 @@
 ---
 layout:     post
+post_id : 17
 title:      How To Install Sublime Text In Ubuntu 16.04
 date:       2016-08-02 11:53 +0545
 author:     "Sandip Bhagat"
+thumbnail: "https://farm9.staticflickr.com/8837/28636985731_62d389152a_b_d.jpg"
 ---
 
 **Sublime Text** is a lightweight, multi-platform text editor. It has lots of cool features which you will love once you start using it. It is available for Ubuntu, Windows and Mac OS X. Sublime Text has a proprietary licence, but the application can also be used for free, without needing to do reverse engineer hacking. Those who want to support the developer’s work can buy Sublime Text for $70.
