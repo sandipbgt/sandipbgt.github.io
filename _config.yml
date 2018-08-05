@@ -54,7 +54,7 @@ defaults:
       layout: "post"
       comments: "true"
 
-gems:
+plugins:
   - jekyll-paginate
 
 include: ["_pages"]
