@@ -2,11 +2,13 @@
 layout: page
 title: "About"
 description: "This is what I do."
-featured_image: "/img/about-bg.jpg"
+featured_image: "/img/about-bg2.jpg"
 ---
 
-Hello, this is me Sandip Bhagat from Biratnagar, Nepal. I am a  Python/Django  and Java developer currently studying Bsc. CSIT, 4th semester at AIMS College, Biratnagar.
+E-mail: <a href="mailto:sandipbgt@gmail.com">sandipbgt@gmail.com</a> <br>
+Twitter: <a href="https://twitter.com/sandipbgt">@sandipbgt</a> <br>
+Github: <a href="https://github.com/sandipbgt">@sandipbgt</a> <br>
 
-[![Sandip Bhagat](https://farm1.staticflickr.com/571/21075825743_f72bf58d70_z_d.jpg)](https://farm1.staticflickr.com/571/21075825743_3e52d0b991_o_d.jpg)
+Hello, I'm Sandip. I am a full stack developer based out of Biratnagar, Nepal. I'm heavily focused on Python and Django.
+If you like the content or want to learn about something – feel free to tweet me <a href="https://twitter.com/sandipbgt">@sandipbgt</a>.
 
-When my hands are not on keyboard, I am with my friends enjoying with nature.
