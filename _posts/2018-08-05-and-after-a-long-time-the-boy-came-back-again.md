@@ -1,10 +1,10 @@
 ---
 layout:     post
-post_id : 20
+post_id :   20
 title:      And After A Long Time The Boy Came Back Again
 date:       2018-08-05 08:40 +0545
 author:     "Sandip Bhagat"
-featured_image: "/img/posts/2018-08-05-and-after-a-long-time-the-boy-came-back-again/featured.JPG"
+featured_image: "/img/posts/2018-08-05-and-after-a-long-time-the-boy-came-back-again/featured.jpg"
 ---
 
 Its been so long, I haven't written any blog post here since 2016. I did write some posts in August 2016 but due to some tight schedule back then, I was not able to continue. However, a lot had happened since then. One of the major event was, I along with Anup Neupane, Shankar Bhattarai, Mohan Tabdar and Tilak Parajuli co-founded a new startup called Zeftware Solutions on July 6, 2016 (official registration date) and most of my time spent working there. We took a small flat near New DSP Office, Biratnagar-01, Nepal and hired interns for frontend development with HTML, CSS and Javascript & backend in Ruby on Rails. We were able to set a culture to hire interns for the first time in Biratnagar. Since beginning, we had made a mindest that we would give them so much then they would ever expect. Most importantly, we want them to feel us. Analyzing now, I think, we were successfull in our goal. Below is the photo of founders of Zeftware Solutions.
@@ -24,7 +24,7 @@ But both of these products were discontinued when we launced our flagship produc
 
 While building these products, I got to learn so many things like Python, Django, Java, Android, Postgres, etc. Though I knew Python at that time already but doing small part time projects and doing real world projects are two different things. I got to learn new concepts including multitenancy, wildcard domain handling, software deployment and much other small things.
 
-As a bonus to interns, I taught them Python and Django because initially they joined us to learn ROR as it was our major language at that time but we switched to Django as most of our projects were done in Django. So. in other to get contribution from them, they were also taught Django. 
+As a bonus to interns, I taught them Python and Django because initially they joined us to learn ROR as it was our major language at that time but we switched to Django as most of our projects were done in Django. So. in other to get contribution from them, they were also taught Django.
 The first batch completed their internship in 2017 and another batch joined us the same time. The experience with first batch was really amazing. I was able to learn so many things from them by sharing my knowledge with them. All of them were friendly, co-operative and hard-working. Below are some photos with first batch of interns during the presentation of their project.
 
 ![First batch interns]({{ site.url }}/img/posts/2018-08-05-and-after-a-long-time-the-boy-came-back-again/IMG_8416.JPG)
