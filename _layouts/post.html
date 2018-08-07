@@ -51,10 +51,12 @@ layout: default
 
                     <hr>
 
-                    {% if site.disqus_shortname and page.comments != 'false' %}
-                      <div class="comments clearfix" itemprop="comment">
-                        {% include disqus_thread.html %}
-                      </div>
+                    {% if site.url != 'http://localhost:4000' %}
+                        {% if site.disqus_shortname and page.comments != 'false' %}
+                        <div class="comments clearfix" itemprop="comment">
+                            {% include disqus_thread.html %}
+                        </div>
+                        {% endif %}
                     {% endif %}
 
                     <nav class="clearfix" itemprop="pagination">

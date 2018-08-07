@@ -33,6 +33,19 @@ In my case, the name of my monitor was `VGA1` so, I used `VGA1` as the monitor n
 
 **Note**: The brightness level must be between `0 to 1` with 0 being the dimmest and 1 being the brightest.
 
+{% if site.url != 'http://localhost:4000' %}
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2234798818029685"
+     data-ad-slot="1035049530"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}
+
 I have created a script to adjust the screen brightness.
 <script src="https://gist.github.com/sandipbgt/330de5b709db86b4e74c.js"></script>
 
