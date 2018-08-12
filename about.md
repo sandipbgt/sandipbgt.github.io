@@ -12,3 +12,7 @@ Github: <a href="https://github.com/sandipbgt">@sandipbgt</a> <br>
 Hello, I'm Sandip. I am a full stack developer based out of Biratnagar, Nepal. I'm heavily focused on Python and Django.
 If you like the content or want to learn about something – feel free to tweet me <a href="https://twitter.com/sandipbgt">@sandipbgt</a>.
 
+## Books read
+* Start Small Stay Small By Rob Walling
+* Think & Grow Rich By Napoleon Hill
+* Rich Dad Poor Dad By Robert T. Kiyosaki
