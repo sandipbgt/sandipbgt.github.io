@@ -13,6 +13,7 @@ Hello, I'm Sandip. I am a full stack developer based out of Biratnagar, Nepal. I
 If you like the content or want to learn about something – feel free to tweet me <a href="https://twitter.com/sandipbgt">@sandipbgt</a>.
 
 ## Books read
+* 100 Ways to Motivate Yourself by Steve Chandler
 * Start Small Stay Small By Rob Walling
 * Think & Grow Rich By Napoleon Hill
 * Rich Dad Poor Dad By Robert T. Kiyosaki
