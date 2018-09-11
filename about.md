@@ -13,7 +13,7 @@ Hello, I'm Sandip. I am a full stack developer based out of Biratnagar, Nepal. I
 If you like the content or want to learn about something – feel free to tweet me <a href="https://twitter.com/sandipbgt">@sandipbgt</a>.
 
 ## Books read
-* The Automatic Millionaire by David Bach
+
 * Zero to One By Peter Thiel
 * 50 Positive Habits To Transform Your Life by Michael Chapman
 * 100 Ways to Motivate Yourself by Steve Chandler
