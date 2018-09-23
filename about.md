@@ -14,7 +14,9 @@ If you like the content or want to learn about something – feel free to tweet 
 
 ## Books read
 
-* The Subtle Art of Not Giving a F*ck.by Mark Manson
+* The Richest Man in Babylon by George Samuel Clason
+* The $100 Startup by Chris Guillebeau
+* The Subtle Art of Not Giving a F*ck by Mark Manson
 * The Automatic Millionaire by David Bach
 * Zero to One By Peter Thiel
 * 50 Positive Habits To Transform Your Life by Michael Chapman
